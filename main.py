@@ -852,7 +852,7 @@ Hanya maze tanpa ujung.
             else:
                 ketik("ADMIN OVERRIDE: DINDING TERBUKA", warna=UNGU)
 
-        if jumlah_click["a"] >= 2:
+        if jumlah_click["d"] >= 2:
             ketik("Lorong di sebelah kiri terasa berbeda...", warna=KUNING, delay=0.03)
             ketik("Kamu melihat siluet seseorang di ujung lorong.", warna=UNGU, delay=0.03, sound_type="misterius")
 
@@ -1073,3 +1073,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

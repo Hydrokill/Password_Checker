@@ -686,7 +686,7 @@ def npc_interaction_system():
             if "replace_with" in data:
                 npc["questions"].update(data["replace_with"])
 
-            # HAPUS pertanyaan lama
+            # HAPUS pertanyaan lama ganti sama pertanyaan bru
             del npc["questions"][question]
 
             time.sleep(0.5)
@@ -1073,4 +1073,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
